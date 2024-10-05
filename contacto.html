@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <link rel="stylesheet" href="./CSS/animacion.css">
+    <link rel="stylesheet" href="./CSS/responsive.css">
+    <link rel="stylesheet" href="./CSS/contacto.css">
+    <title>CSS Rebels - Contacto</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,100..700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <h1 class="titulo">CSS Rebels</h1>
+        <div class="container">
+            <!-- Elemento de la imagen giratoria -->
+            <div class="logo"></div>
+            <!-- Base de la imagen que emite el resplandor -->
+            <div class="bottom_part"></div>
+        </div>
+        <nav class="menu">
+            <button class="nav-toggle" aria-label="Abrir menú">&#9776;</button>
+            <ul class="opciones">
+                <li><a href="./index.html">Home</a></li>
+                <li class="submenu-opcion">
+                    <a href="#">Discografía</a>
+                    <ul class="submenu">
+                        <li class="decada">
+                            <a href="#">Década de los 60</a>
+                            <ul class="submenu-bandas">
+                                <li class="banda"><a href="./TheBeatles.html">The Beatles</a></li>
+                                <li class="banda"><a href="./RollingStones.html">The Rolling Stones</a></li>
+                            </ul>
+                        </li>
+                        <li class="decada">
+                            <a href="#">Década de los 70</a>
+                            <ul class="submenu-bandas">
+                                <li class="banda"><a href="./ledzeppelin.html">Led Zeppelin</a></li>
+                                <li class="banda"><a href="./PinkFloyd.html">Pink Floyd</a></li>
+                                <li class="banda"><a href="./queen.html">Queen</a></li>
+                                <li class="banda"><a href="./ACDC.html">AC/DC</a></li>
+                            </ul>
+                        </li>
+                        <li class="decada">
+                            <a href="#">Década de los 80</a>
+                            <ul class="submenu-bandas">
+                                <li class="banda"><a href="./metallica.html">Metallica</a></li>
+                                <li class="banda"><a href="./GunsNRoses.html">Guns N' Roses</a></li>
+                            </ul>
+                        </li>
+                        <li class="decada">
+                            <a href="#">Década de los 90</a>
+                            <ul class="submenu-bandas">
+                                <li class="banda"><a href="./nirvana.html">Nirvana</a></li>
+                                <li class="banda"><a href="./radiohead.html">Radiohead</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--comienzo del formulario-->
+    <section class="contenedor-unite">
+
+        <h3 class="titulo-unite"> Unite a nuestra comunidad de CSS Rebels </h3>
+
+        <form class="formulario-contenedor">
+            <div class="formulario">
+                <label for="nombre" class="formulario-items">Nombre</label>
+                <input type="text" id="nombre" name="nombre" class="input" required>
+                <br><br>
+                <label for="apellido" class="formulario-items">Apellido</label>
+                <input type="text" id="apellido" name="apellido" class="input" required>
+                <br><br>
+                <label for="mail" class="formulario-items">Mail</label>
+                <input type="email" id="mail" name="mail" class="input" required placeholder="email@ejemplo.com">
+                <br><br>
+                <label for="telefono" class="formulario-items">Teléfono</label>
+                <input type="tel" id="telefono" name="telefono" class="input" required placeholder="(xx) xxxx-xxxx">
+                <br><br>
+                <label for="mensaje" class="formulario-items">Comentarios</label>
+                <textarea cols="10" rows="15" id="mensaje" name="mensaje"></textarea>
+                <br><br>
+                <div class="boton-enviar">
+                    <input type="submit" value="Enviar" class="enviar">
+                </div>
+            </div>
+        </form>
+
+    </section>
+    <!--fin del formulario-->
+
+    <!--Comienzo del footer-->
+    <footer>
+        <div class="social-media">
+            <a href="https://twitter.com/tu_usuario" target="_blank">Twitter</a>
+            <a href="https://instagram.com/tu_usuario" target="_blank">Instagram</a>
+            <a href="https://youtube.com/c/tu_usuario" target="_blank">YouTube</a>
+        </div>
+        <p>&copy; 2024 Actividad Grupal - Grupo 3 - CSS Rebels - Tecno3F - Curso Diseño Web. Todos los derechos
+            reservados.</p>
+    </footer>
+    <!--fin del footer-->
+
+    <script src="./main.js"></script>
+
+</body>
+
+</html>

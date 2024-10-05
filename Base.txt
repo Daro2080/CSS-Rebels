@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <link rel="stylesheet" href="./CSS/animacion.css">
+    <link rel="stylesheet" href="./CSS/nirvana.css">
+    <link rel="stylesheet" href="./CSS/responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,100..700&display=swap"
+        rel="stylesheet">
+    <title>CSS Rebels - ? </title>
+</head>
+<body>
+
+    <header>
+        <h1 class="titulo">CSS Rebels</h1>
+            <div class="container">
+                <!-- Elemento de la imagen giratoria -->
+                <div class="logo"></div>
+                <!-- Base de la imagen que emite el resplandor -->
+                <div class="bottom_part"></div>
+            </div>
+            <nav class="menu">
+                <button class="nav-toggle" aria-label="Abrir menú">&#9776;</button>
+                <ul class="opciones">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="#">Discografia</a></li>             
+                    <li><a href="./contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        
+    </header>
+
+    <main>
+        
+        <section>
+            <h1 class="titulo-discografia">Discografia</h1>
+            <div class="container-banda">
+                <h2 class="titulo-banda"> ? </h2>                
+            </div>
+            <div class="container-img-banda">
+                <img src=" ? " alt="" class="img-banda">
+            </div>    
+            <div class="parrafo">
+                <p> ? </p>
+            </div>
+
+<!--discografia-->
+
+            <div class="disco">
+                <div class="info-titulo">
+                    <h2 class="titulo-disco"> ? </h2>
+                    <br>
+                    <h3 class="titulo-disco"> ? </h3>                                
+                </div>
+                <div class="info-disco">
+                    <img src=" ? " alt="" class="img-disco">
+                    <div class="info-texto">
+                        <p> ? </p>
+                        <br><br>
+                        <p> ? </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="disco">
+                <div class="info-titulo">
+                    <h3 class="titulo-disco"> ? </h3>
+                </div>
+                <div class="info-disco">
+                    <img src=" ? " alt="" class="img-disco">
+                    <div>
+                        <p> ? </p><br><br>
+                        <p> ? </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="disco">
+                <div class="info-titulo">
+                    <h3 class="titulo-disco"> ? </h3>
+                </div>
+                <div class="info-disco">
+                    <img src="?" alt="" class="img-disco">
+                    <div>            
+                        <p> ? </p> <br><br>
+                        <p> ? </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="disco">
+                <div class="info-titulo">
+                    <h3 class="titulo-disco"> ? </h3>
+                </div>
+                <div class="info-disco">
+                    <img src=" ? " alt="" class="img-disco">
+                    <div>            
+                        <p> ? </p><br><br>
+                        <p> ? </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="disco">
+                <div class="info-titulo">
+                    <h3 class="titulo-disco"> ? </h3>
+                </div>
+                <div class="info-disco">
+                    <img src=" ? " alt="" class="img-disco">
+                    <div>            
+                        <p> ? </p><br><br>
+                        <p> ? </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="disco">
+                <div class="info-titulo">
+                    <h3 class="titulo-disco"> ? </h3>
+                </div>
+                <div class="info-disco">
+                    <img src=" ? " alt="" class="img-disco">
+                    <div>            
+                        <p> ? </p><br><br>
+                        <p> ? </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="disco">
+                <div class="info-titulo">
+                    <h2 class="titulo-disco"> ? </h2>
+                </div>
+                <div>
+                    <p> ? </p>
+                </div>
+            </div>
+
+            <div class="disco">
+                <div class="info-titulo">
+                    <h2 class="titulo-disco">Curiosidades</h2>
+                </div>
+                <div>
+                    <p> ? </p>
+                </div>
+            </div>
+                
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-media">
+            <a href="https://twitter.com/tu_usuario" target="_blank">Twitter</a>
+            <a href="https://instagram.com/tu_usuario" target="_blank">Instagram</a>
+            <a href="https://youtube.com/c/tu_usuario" target="_blank">YouTube</a>
+        </div>
+        <p>&copy; 2024 Actividad Grupal - Grupo 3 - CSS Rebels - Tecno3F - Curso Diseño Web. Todos los derechos
+            reservados.</p>
+    </footer>
+    
+</body>
+</html>
