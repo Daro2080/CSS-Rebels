@@ -1,0 +1,277 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo general del body */
+body {
+    background-image: url('../images/fondo1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem; /* Tamaño base de fuente */
+     /* Color de texto por defecto */
+    margin: 0;
+    padding: 0;
+}
+
+/* Configuración del html para smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Estilos globales */
+h1, h2 {
+    font-family: 'Montagu Slab', serif;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para el título principal */
+.titulo {
+    text-align: center;
+    color: #fcfcfc;
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+/* Estilos del header */
+header {
+    background-color: #333;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+/* Estilos del menú de navegación */
+.menu {
+    font-size: 20px;
+    width: 100%;
+    background-color: #333;
+}
+
+.opciones {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+}
+
+.opciones li {
+    position: relative;
+}
+
+.opciones li a {
+    font-family: "Montagu Slab", serif;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    background-color: #333;
+}
+
+.opciones li a:hover {
+    background-color: #555;
+    color: #0288d1; /* Cambia el color del título */
+    border-radius: 5px;
+}
+
+/* Submenú de décadas */
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #444;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 200px;
+    z-index: 10;
+}
+
+.submenu li {
+    list-style: none;
+    position: relative;
+}
+
+.submenu li a {
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.submenu-bandas {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background-color: #555;
+    width: 200px;
+}
+
+.submenu-opcion:hover .submenu,
+.decada:hover .submenu-bandas {
+    display: block;
+}
+
+/* Estilos de las secciones */
+.banda {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.banda p {
+    text-align: justify;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 20px 0;
+}
+
+.titulo-banda {
+    transition: transform 0.4s ease;
+}
+
+.titulo-banda:hover {
+    transform: scale(1.5);
+}
+
+/* Estilo de los discos */
+.discografia-disco {
+    margin: 7px;
+}
+
+.discografia-disco a {
+    color: white;
+    text-decoration: none;
+}
+
+.discografia-disco a:hover {
+    color: orange; /* Cambia el color del título */
+}
+
+/* Colores personalizados para cada banda */
+.banda.nirvana {
+    background-color: #00274d;
+    color: #f5f5dc;
+}
+
+.banda.queen {
+    background-color: #8b0000;
+    color: #ffd700;
+}
+
+.banda.beatles {
+    background-color: #d3d3d3;
+    color: #003366;
+}
+
+.banda.led-zeppelin {
+    background-color: #000;
+    color: #ffd700;
+}
+
+.banda.pink-floyd {
+    background-color: #000;
+    color: #ff00ff;
+}
+
+.banda.metallica {
+    background-color: #333;
+    color: #fff;
+}
+
+.banda.acdc {
+    background-color: #000;
+    color: #ff0000;
+}
+
+.banda.rolling-stones {
+    background-color: #6a0d91;
+    color: #fff;
+}
+
+.banda.radiohead {
+    background-color: #b0c4de;
+    color: #000;
+}
+
+.banda.guns-n-roses {
+    background-color: #c8102e;
+    color: #ffd700;
+}
+
+/* Centrar las imágenes */
+.imagen-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.imagen-container img {
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #e2d4cc;
+    padding: 10px 20px;
+    color: black;
+    text-align: center;
+    width: 100%;
+    margin-top: 30px;
+}
+
+/* Estilos para los enlaces de redes sociales */
+.social-media a {
+    margin: 0 10px;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #333;
+}
+
+.social-media a:hover {
+    color: #ee1413;
+}
+
+/* Botón de flecha */
+.btn-flecha {
+    padding: 0 15px;
+    margin: -70px 15px;
+}
+
+.ir-arriba {
+    display: flex;
+    justify-content: right;
+    margin-bottom: -15px;
+}
+
+.btn-flecha img {
+    width: 50px;
+    height: auto;
+    border-radius: 50%;
+    background-color: #0288d1;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-flecha:hover img {
+    transform: scale(1.1);
+}

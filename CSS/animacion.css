@@ -1,0 +1,58 @@
+/* animacion.css */
+.container{
+    height: 350px;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    perspective: 500px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto; /* Centrar horizontalmente */
+}
+
+.logo{
+    width: 150px;
+    height: 150px;
+    background: url('../images/logo.jpg') center/cover no-repeat;
+    position: absolute;
+    top: 10px;
+    filter: drop-shadow(0px 7px 21px #641203);
+    animation: rotar 5s linear infinite;
+}
+
+@keyframes rotar{
+    from{
+        transform: rotateY(0deg);
+    }
+    to{
+        transform: rotateY(360deg);
+    }
+}
+
+.bottom_part{
+    width: 10rem;
+    height: 27rem;
+    position: absolute;
+    bottom: -94px;
+    background: #242424;
+    border-radius: 50%;
+    box-shadow: inset 0px 0px 10px 10px #11111136;
+    transform: rotateX(90deg); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom_part::before{
+    content: "";
+    width: 5rem;
+    height: 17rem;
+    position: absolute;
+    bottom: 5rem;
+    background: #641203;
+    border-radius: 50px;
+    box-shadow: inset 0px 0px 10px 10px #11111136;
+    filter: blur(30px);
+}

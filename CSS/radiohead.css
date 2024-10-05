@@ -1,0 +1,37 @@
+.titulo-discografia{
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 16px;
+    font-size: 50px;
+    font-family: "Montagu Slab", serif;
+}
+
+.container-banda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.titulo-banda{
+    margin: 0;
+    color: white;
+    font-size: 30px;    
+}
+
+.container-img-banda{
+    margin-top: 20px;
+}
+
+.parrafo{
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+    text-align: justify;
+    padding: 30px;
+    border: solid white;
+    border-radius: 15px;
+    margin: 25px 13px;
+}

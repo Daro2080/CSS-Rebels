@@ -1,0 +1,116 @@
+.titulo-discografia{
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 16px;
+    font-size: 50px;
+    font-family: "Montagu Slab", serif;
+}
+
+.container-banda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+    
+
+.titulo-banda{
+    margin: 0;
+    color: white;
+    font-size: 30px;    
+}
+
+.titulo-disco{
+    color: black;
+    font-size: 30px;
+    margin: 0;
+}
+
+
+
+.container-img-banda{
+    margin-top: 20px;
+}
+
+.img-banda{
+    margin: 0 35%;
+    width: 30%;
+    border-radius: 50%;
+    border: 5px solid white;
+    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.5);
+}
+
+.parrafo{
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+    text-align: justify;
+    padding: 30px;
+    border: solid white;
+    border-radius: 15px;
+    margin: 25px 13px;
+}
+
+.img-disco {
+    width: 250px;
+    height: auto;
+    border-radius: 8px; /* Bordes redondeados en la imagen */
+}
+
+.disco{
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto 10px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.info-titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Alinea los títulos a la izquierda */
+    margin-bottom: 15px; /* Espacio debajo de los títulos */
+}
+
+.info-disco {
+    display: flex; /* Coloca la imagen y el texto uno junto al otro */
+    align-items: flex-start;
+    gap: 20px; /* Espacio entre la imagen y el texto */
+}
+
+.info-texto {
+    flex: 1; /* Hace que el texto ocupe todo el espacio disponible */
+}
+
+p {
+    margin: 0 0 10px 0; /* Margen entre párrafos */
+    line-height: 1.6; /* Mejora la legibilidad del texto */
+    font-size: 20px;
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #e2d4cc;
+    padding: 10px 20px;
+    color: black;
+    text-align: center;
+    width: 100%;
+    margin-top: 30px;
+}
+
+/* Estilos para los enlaces de redes sociales */
+.social-media a {
+    margin: 0 10px;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #333;
+}
+
+.social-media a:hover {
+    color: #ee1413;
+}

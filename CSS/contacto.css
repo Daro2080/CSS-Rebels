@@ -1,0 +1,71 @@
+body{
+  text-align: center;
+  background-position: center;
+}
+
+.contenedor-unite{
+  margin: 30px;
+}
+
+.titulo-unite{
+  font-family: "Montagu Slab", serif;
+  font-size: 1.5em;
+  color: #ffffff;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+
+.formulario-contenedor{  
+  width: 500px;
+  margin: 15px auto 15px; 
+}
+
+.formulario{
+  display: flex;
+  align-content: stretch;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 39px 26px 39px 26px;
+  border: solid white 2px;
+  border-radius: 30px;
+  width: auto;
+  font-size: 16px;
+}
+  
+.formulario-items{
+  display: block;
+  margin-bottom: 1px;
+  color: #ffd700;
+  font-family: sans-serif;
+}
+
+.input{
+  width: 100%;
+  text-align: center;
+  border-radius: 10px;
+  padding: 6px;
+}
+
+.boton-enviar{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+
+.enviar{
+  padding: 12px 65px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 13px;
+    background: yellow;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.enviar:hover{
+  transform: scale(1.2);
+  transition: 1s all;
+}
