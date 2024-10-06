@@ -2,9 +2,12 @@
 
 Proyecto en grupo para el curso Diseño Web de Tecno 3F
 
-Nuestra página trata sobre bandas de los '60/'70/'80/'90 Con info sobre cada una y su discografía
+Nuestra página trata sobre bandas de los '60/'70/'80/'90, con información sobre cada una y su discografía.
 
-Mejoramos la visual, cumpliendo las consignas pedidas en el TP Final
+Mejoramos la visual, cumpliendo las consignas pedidas en el TP Final.
+
+## Despliegue
+Puedes ver el sitio en vivo aquí: [CSS-Rebels Deploy](https://daro2080.github.io/CSS-Rebels/)
 
 ### Integrantes:
 - Alejandra Potenza - [GitHub](https://github.com/Alelita6)
@@ -13,7 +16,7 @@ Mejoramos la visual, cumpliendo las consignas pedidas en el TP Final
 - Cristian Agustin Zarate - [GitHub](https://github.com/Zar2912)
 - Daniela Bastias - [GitHub](https://github.com/Nannys-cmd/)
 - Dario Tamini - [GitHub](https://github.com/Daro2080)
-- Karem Nuñez Rivera [GitHub](https://github.com/Kali2lou)
+- Karem Nuñez Rivera - [GitHub](https://github.com/Kali2lou)
 - Laura Cecilia Esplugas - [GitHub](https://github.com/lauraesplugas2022)
 - Luciano Altavista - [GitHub](https://github.com/LucianoAltavista)
 - Matias Nuñez - [GitHub](https://github.com/Verlowren)
@@ -21,3 +24,4 @@ Mejoramos la visual, cumpliendo las consignas pedidas en el TP Final
 - Nicolás Cruzate - [GitHub](https://github.com/NicooCruzate)
 - Ornella Demestri - [GitHub](https://github.com/Dola1792)
 - Romina Maria Diaz - [GitHub](https://github.com/Estrella-Bruta)
+
